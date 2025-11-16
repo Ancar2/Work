@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Workcango.co</title>
+
+    <meta name="description"
+        content="WorkCango es una plataforma que impulsa el crecimiento profesional y conecta talento con proyectos digitales, startups y empresas en expansión. Descubre Atlas IA, el Marketplace, Workademy y más." />
+    <meta name="keywords"
+        content="WorkCango, empleo remoto, startups, IA, Atlas AI, marketplace, tecnología, formación, trabajo digital" />
+    <meta name="author" content="Workcango.co" />
+
+    <meta property="og:title" content="WorkCango | Conecta talento con proyectos digitales" />
+    <meta property="og:description"
+        content="Descubre oportunidades digitales, formación con IA y el Marketplace WorkCango. Crece con nosotros." />
+    <meta property="og:image"
+        content="https://workcango.co/wp-content/uploads/2023/12/logo-Morado-transparente-600x300.png" />
+    <meta property="og:url" content="https://workcango.co/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WorkCango | Conecta talento con proyectos digitales" />
+    <meta name="twitter:description"
+        content="Impulsa tu carrera con IA, educación digital y proyectos reales. Únete a Workcango.co" />
+    <meta name="twitter:image" content="/images/logo.png" />
+
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="canonical" href="https://workcango.co/" />
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <!-- logo -->
+            <div class="logo">
+                <img src="/images/logo.png" alt="WorkCango Logo">
+            </div>
+
+
+            <!-- Checkbox para controlar el menú hamburguesa -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <!-- Botón para abrir el menú hamburguesa -->
+            <label for="menu-toggle" class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+
+            <!-- Navbar Links -->
+            <ul class="nav-links">
+                <li><a href="#">Atlas IA</a></li>
+                <li><a href="#">Marketplace
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.2797 5.9668L8.93306 10.3135C8.41973 10.8268 7.57973 10.8268 7.06639 10.3135L2.71973 5.9668"
+                                stroke="#2B3674" stroke-opacity="0.8" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </a></li>
+                <li><a href="#">Let’s Grow</a></li>
+                <li><a href="#">Workademy</a></li>
+                <li><a href="#">Know us</a></li>
+
+                <!-- Estilos para los botones de acceso y registro en mobile  -->
+                <hr>
+                <div class="buttons-mobile">
+                    <button class="btn-acces">
+                        <a href="#">Iniciar sesión</a>
+                    </button>
+                    <button class="btn-sign-up">
+                        <a href="#">Regístrarse</a>
+                    </button>
+                </div>
+            </ul>
+            <div class="overlay" id="over"></div>
+
+            <div class="buttons">
+                <button class="btn-acces">
+                    <a href="#">Acceso</a>
+                </button>
+                <button class="btn-sign-up">
+                    <a href="#">Inscribirse</a>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenedor principal de la página -->
+    <main>
+
+        <!-- Sección principal que agrupa la imagen del proyecto y los detalles -->
+        <section class="container-one">
+
+            <!-- Columna izquierda: galería de imágenes del proyecto -->
+            <div class="item">
+
+                <!-- Miniaturas de imágenes previas -->
+                <div class="prev-imgs">
+                    <div class="img-miniature">
+                        <img src="/images/65c92089bd0038a2ce5a4a2557abe5ff17bc6c5f.jpg" alt="" />
+                    </div>
+                    <div class="img-miniature">
+                        <img src="/images/65c92089bd0038a2ce5a4a2557abe5ff17bc6c5f.jpg" alt="" />
+                    </div>
+                    <div class="img-miniature">
+                        <img src="/images/65c92089bd0038a2ce5a4a2557abe5ff17bc6c5f.jpg" alt="" />
+                    </div>
+                </div>
+
+                <!-- Imagen principal mostrada en grande -->
+                <div class="image">
+                    <img src="/images/65c92089bd0038a2ce5a4a2557abe5ff17bc6c5f.jpg" alt="" />
+                </div>
+            </div>
+
+            <!-- Columna central: información detallada del servicio -->
+            <div class="item-2">
+                <h2>Detalles del servicio</h2>
+
+                <!-- Titulo de la pagina -->
+                <h5>
+                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.3337 3.71875C13.3337 4.80375 12.492 5.6875 11.4587 5.6875H8.54199C8.02533 5.6875 7.55866 5.46875 7.21699 5.11C6.87533 4.75125 6.66699 4.26125 6.66699 3.71875C6.66699 2.63375 7.50866 1.75 8.54199 1.75H11.4587C11.9753 1.75 12.442 1.96875 12.7837 2.3275C13.1253 2.68625 13.3337 3.17625 13.3337 3.71875Z"
+                            fill="#2B3674" />
+                        <path
+                            d="M15.6913 4.40113C15.4997 4.23488 15.283 4.10363 15.0497 4.00738C14.808 3.91113 14.5663 4.11238 14.5163 4.37488C14.233 5.87113 12.9747 6.99988 11.458 6.99988H8.54134C7.70801 6.99988 6.92467 6.65863 6.33301 6.03738C5.89967 5.58238 5.59967 5.00488 5.48301 4.38363C5.43301 4.12113 5.18301 3.91113 4.94134 4.01613C3.97467 4.42738 3.33301 5.35488 3.33301 7.21863V15.7499C3.33301 18.3749 4.82467 19.2499 6.66634 19.2499H13.333C15.1747 19.2499 16.6663 18.3749 16.6663 15.7499V7.21863C16.6663 5.79238 16.2913 4.91738 15.6913 4.40113ZM6.66634 10.7186H9.99967C10.3413 10.7186 10.6247 11.0161 10.6247 11.3749C10.6247 11.7336 10.3413 12.0311 9.99967 12.0311H6.66634C6.32467 12.0311 6.04134 11.7336 6.04134 11.3749C6.04134 11.0161 6.32467 10.7186 6.66634 10.7186ZM13.333 15.5311H6.66634C6.32467 15.5311 6.04134 15.2336 6.04134 14.8749C6.04134 14.5161 6.32467 14.2186 6.66634 14.2186H13.333C13.6747 14.2186 13.958 14.5161 13.958 14.8749C13.958 15.2336 13.6747 15.5311 13.333 15.5311Z"
+                            fill="#2B3674" />
+                    </svg>
+
+                    <div class="details">
+                        Titulo de la página : <span> Lorem ipsum dolo </span>
+
+                    </div>
+                </h5>
+
+                <!-- Nombre del servicio -->
+                <h5>
+                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16.7503 8.06726C15.242 8.06726 14.6253 6.94726 15.3753 5.57351C15.8087 4.77726 15.5503 3.76226 14.792 3.30726L13.3503 2.44101C12.692 2.02976 11.842 2.27476 11.4503 2.96601L11.3587 3.13226C10.6087 4.50601 9.37533 4.50601 8.61699 3.13226L8.52532 2.96601C8.15032 2.27476 7.30033 2.02976 6.64199 2.44101L5.20033 3.30726C4.44199 3.76226 4.18366 4.78601 4.61699 5.58226C5.37533 6.94726 4.75866 8.06726 3.25033 8.06726C2.38366 8.06726 1.66699 8.81101 1.66699 9.72976V11.2698C1.66699 12.1798 2.37533 12.9323 3.25033 12.9323C4.75866 12.9323 5.37533 14.0523 4.61699 15.426C4.18366 16.2223 4.44199 17.2373 5.20033 17.6923L6.64199 18.5585C7.30033 18.9698 8.15033 18.7248 8.54199 18.0335L8.63366 17.8673C9.38366 16.4935 10.617 16.4935 11.3753 17.8673L11.467 18.0335C11.8587 18.7248 12.7087 18.9698 13.367 18.5585L14.8087 17.6923C15.567 17.2373 15.8253 16.2135 15.392 15.426C14.6337 14.0523 15.2503 12.9323 16.7587 12.9323C17.6253 12.9323 18.342 12.1885 18.342 11.2698V9.72976C18.3337 8.81976 17.6253 8.06726 16.7503 8.06726ZM10.0003 13.3435C8.50866 13.3435 7.29199 12.066 7.29199 10.4998C7.29199 8.93351 8.50866 7.65601 10.0003 7.65601C11.492 7.65601 12.7087 8.93351 12.7087 10.4998C12.7087 12.066 11.492 13.3435 10.0003 13.3435Z"
+                            fill="#2B3674" />
+                    </svg>
+
+                    <div class="details">
+
+                        Nombre del servicio : <span> Lorem ipsum dolor sit amet.</span>
+                    </div>
+                </h5>
+
+                <!-- Industria -->
+                <h5>
+                    <svg width="24" height="27" viewBox="0 0 24 27" fill="none"></svg>
+                    <div class="details">
+                        Industria : <span> Empresa </span>
+                    </div>
+                </h5>
+
+                <!-- categoria del servicio -->
+                <h5>
+                    <svg width="24" height="27" viewBox="0 0 24 27" fill="none"></svg>
+                    <div class="details">
+                        Categoria : Tecnología y Sofware / <span> Desarrolo web </span>
+                    </div>
+                </h5>
+
+                <!-- tiempo de entrega -->
+                <h5>
+                    <svg width="24" height="27" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.4375 17.9375H13.125V18.8125H14.4375V17.9375Z" fill="#2B3674" />
+                        <path
+                            d="M15.75 10.0625H7.4375C7.0894 10.0625 6.75556 10.2008 6.50942 10.4469C6.26328 10.6931 6.125 11.0269 6.125 11.375V20.125C6.125 20.4731 6.26328 20.8069 6.50942 21.0531C6.75556 21.2992 7.0894 21.4375 7.4375 21.4375H15.75C16.0981 21.4375 16.4319 21.2992 16.6781 21.0531C16.9242 20.8069 17.0625 20.4731 17.0625 20.125V11.375C17.0625 11.0269 16.9242 10.6931 16.6781 10.4469C16.4319 10.2008 16.0981 10.0625 15.75 10.0625ZM10.0625 19.6875H8.3125C8.19647 19.6875 8.08519 19.6414 8.00314 19.5594C7.92109 19.4773 7.875 19.366 7.875 19.25C7.875 19.134 7.92109 19.0227 8.00314 18.9406C8.08519 18.8586 8.19647 18.8125 8.3125 18.8125H10.0625C10.1785 18.8125 10.2898 18.8586 10.3719 18.9406C10.4539 19.0227 10.5 19.134 10.5 19.25C10.5 19.366 10.4539 19.4773 10.3719 19.5594C10.2898 19.6414 10.1785 19.6875 10.0625 19.6875ZM10.0625 17.9375H8.3125C8.19647 17.9375 8.08519 17.8914 8.00314 17.8094C7.92109 17.7273 7.875 17.616 7.875 17.5C7.875 17.384 7.92109 17.2727 8.00314 17.1906C8.08519 17.1086 8.19647 17.0625 8.3125 17.0625H10.0625C10.1785 17.0625 10.2898 17.1086 10.3719 17.1906C10.4539 17.2727 10.5 17.384 10.5 17.5C10.5 17.616 10.4539 17.7273 10.3719 17.8094C10.2898 17.8914 10.1785 17.9375 10.0625 17.9375ZM10.7406 13.9256C10.6748 13.969 10.5985 13.9937 10.5198 13.9973C10.4411 14.0009 10.3629 13.9831 10.2935 13.9459C10.224 13.9087 10.1659 13.8535 10.1252 13.786C10.0846 13.7185 10.0629 13.6413 10.0625 13.5625V10.9375H13.5625V13.5625C13.5623 13.6416 13.5406 13.7193 13.4998 13.7871C13.4589 13.8549 13.4005 13.9103 13.3306 13.9475C13.2622 13.9826 13.1857 13.9991 13.1089 13.9953C13.0321 13.9914 12.9577 13.9674 12.8931 13.9256L11.8125 13.2125L10.7406 13.9256ZM15.3125 19.25C15.3125 19.366 15.2664 19.4773 15.1844 19.5594C15.1023 19.6414 14.991 19.6875 14.875 19.6875H12.6875C12.5715 19.6875 12.4602 19.6414 12.3781 19.5594C12.2961 19.4773 12.25 19.366 12.25 19.25V17.5C12.25 17.384 12.2961 17.2727 12.3781 17.1906C12.4602 17.1086 12.5715 17.0625 12.6875 17.0625H14.875C14.991 17.0625 15.1023 17.1086 15.1844 17.1906C15.2664 17.2727 15.3125 17.384 15.3125 17.5V19.25Z"
+                            fill="#2B3674" />
+                        <path
+                            d="M21.4375 1.75H20.125V1.53125C20.125 1.12514 19.9637 0.735658 19.6765 0.448493C19.3893 0.161328 18.9999 0 18.5938 0C18.1876 0 17.7982 0.161328 17.511 0.448493C17.2238 0.735658 17.0625 1.12514 17.0625 1.53125V1.75H13.3438V1.53125C13.3438 1.12514 13.1824 0.735658 12.8953 0.448493C12.6081 0.161328 12.2186 0 11.8125 0C11.4064 0 11.0169 0.161328 10.7297 0.448493C10.4426 0.735658 10.2812 1.12514 10.2812 1.53125V1.75H6.5625V1.53125C6.5625 1.12514 6.40117 0.735658 6.11401 0.448493C5.82684 0.161328 5.43736 0 5.03125 0C4.62514 0 4.23566 0.161328 3.94849 0.448493C3.66133 0.735658 3.5 1.12514 3.5 1.53125V1.75H2.1875C1.60734 1.75 1.05094 1.98047 0.640704 2.3907C0.230468 2.80094 0 3.35734 0 3.9375V24.0625C0 24.6427 0.230468 25.1991 0.640704 25.6093C1.05094 26.0195 1.60734 26.25 2.1875 26.25H21.4375C22.0177 26.25 22.5741 26.0195 22.9843 25.6093C23.3945 25.1991 23.625 24.6427 23.625 24.0625V3.9375C23.625 3.35734 23.3945 2.80094 22.9843 2.3907C22.5741 1.98047 22.0177 1.75 21.4375 1.75ZM17.9375 1.53125C17.9375 1.3572 18.0066 1.19028 18.1297 1.06721C18.2528 0.94414 18.4197 0.875 18.5938 0.875C18.7678 0.875 18.9347 0.94414 19.0578 1.06721C19.1809 1.19028 19.25 1.3572 19.25 1.53125V3.28125C19.25 3.4553 19.1809 3.62222 19.0578 3.74529C18.9347 3.86836 18.7678 3.9375 18.5938 3.9375C18.4197 3.9375 18.2528 3.86836 18.1297 3.74529C18.0066 3.62222 17.9375 3.4553 17.9375 3.28125V1.53125ZM11.1562 1.53125C11.1562 1.3572 11.2254 1.19028 11.3485 1.06721C11.4715 0.94414 11.6385 0.875 11.8125 0.875C11.9865 0.875 12.1535 0.94414 12.2765 1.06721C12.3996 1.19028 12.4688 1.3572 12.4688 1.53125V3.28125C12.4688 3.4553 12.3996 3.62222 12.2765 3.74529C12.1535 3.86836 11.9865 3.9375 11.8125 3.9375C11.6385 3.9375 11.4715 3.86836 11.3485 3.74529C11.2254 3.62222 11.1562 3.4553 11.1562 3.28125V1.53125ZM4.375 1.53125C4.375 1.3572 4.44414 1.19028 4.56721 1.06721C4.69028 0.94414 4.8572 0.875 5.03125 0.875C5.2053 0.875 5.37222 0.94414 5.49529 1.06721C5.61836 1.19028 5.6875 1.3572 5.6875 1.53125V3.28125C5.6875 3.4553 5.61836 3.62222 5.49529 3.74529C5.37222 3.86836 5.2053 3.9375 5.03125 3.9375C4.8572 3.9375 4.69028 3.86836 4.56721 3.74529C4.44414 3.62222 4.375 3.4553 4.375 3.28125V1.53125ZM18.8125 23.0081V21C18.8125 20.6519 18.9508 20.3181 19.1969 20.0719C19.4431 19.8258 19.7769 19.6875 20.125 19.6875H22.1331L18.8125 23.0081ZM22.75 18.375C22.75 18.491 22.7039 18.6023 22.6219 18.6844C22.5398 18.7664 22.4285 18.8125 22.3125 18.8125H20.125C19.5448 18.8125 18.9884 19.043 18.5782 19.4532C18.168 19.8634 17.9375 20.4198 17.9375 21V23.1875C17.9375 23.3035 17.8914 23.4148 17.8094 23.4969C17.7273 23.5789 17.616 23.625 17.5 23.625L2.1875 23.5987C1.8394 23.5987 1.50556 23.4605 1.25942 23.2143C1.01328 22.9682 0.875 22.6343 0.875 22.2862V7.875H22.75V18.375Z"
+                            fill="#2B3674" />
+                    </svg>
+
+                    <div class="details">
+                        El tiempo de entrega : <span> 7 - 9 Dias </span>
+                    </div>
+                </h5>
+
+                <!-- Rango de presupuesto o valor del servicio -->
+                <p>$100-200</p>
+            </div>
+
+            <!-- Columna derecha: acciones y detalles del vendedor -->
+            <div class="item-3">
+
+                <!-- Botón para marcar como favorito -->
+                <button class="favorite-btn">
+                    <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.0332 0.5C14.313 0.5 16.1669 2.35707 16.167 4.6582C16.167 5.59545 16.0174 6.46039 15.7578 7.2627L15.7568 7.26562C15.1343 9.23557 13.8576 10.8268 12.4756 12.0146C11.0913 13.2044 9.6291 13.9651 8.68848 14.2852L8.68359 14.2871C8.61207 14.3123 8.4847 14.333 8.33301 14.333C8.18166 14.333 8.05492 14.3123 7.9834 14.2871L7.97754 14.2852L7.60156 14.1445C6.6728 13.7683 5.40264 13.0556 4.19141 12.0146C2.8093 10.8268 1.53269 9.23566 0.910156 7.26562L0.90918 7.2627L0.817383 6.95898C0.614845 6.24309 0.5 5.47839 0.5 4.6582C0.50007 2.35707 2.35397 0.5 4.63379 0.5C5.97703 0.500148 7.18097 1.15352 7.93262 2.1582L8.33301 2.69336L8.7334 2.1582C9.48511 1.15344 10.6898 0.500043 12.0332 0.5Z"
+                            stroke="black" stroke-opacity="0.7" />
+                    </svg>Marcar como favorito
+                </button>
+
+                <!-- Botón para postularse -->
+                <button class="apply-btn">Comprar ahora</button>
+
+                <!-- Sección con la información  -->
+                <div class="details-vendedor">
+                    <h3>Detalles del vendedor</h3>
+
+                    <!-- Información del usuario -->
+                    <div class="info">
+
+                        <!-- Avatar y estado  -->
+                        <div class="avatar">
+                            <img src="/images/1af2086220affecd5f498aeca93f64918a91bf86.jpg" alt="Foto del vendedor" />
+                            <span class="status"></span>
+                        </div>
+
+                        <!-- Datos personales -->
+                        <div class="details-persona">
+                            <h5>James Anderson</h5>
+
+                            <!-- Ubicación del usuario -->
+                            <p class="location">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.0286 4.92933C11.4161 2.23433 9.0653 1.021 7.0003 1.021C7.0003 1.021 7.0003 1.021 6.99447 1.021C4.9353 1.021 2.57863 2.2285 1.96613 4.9235C1.28363 7.9335 3.12697 10.4827 4.7953 12.0868C5.41363 12.6818 6.20697 12.9793 7.0003 12.9793C7.79363 12.9793 8.58697 12.6818 9.19947 12.0868C10.8678 10.4827 12.7111 7.93933 12.0286 4.92933ZM7.0003 7.85183C5.9853 7.85183 5.1628 7.02933 5.1628 6.01433C5.1628 4.99933 5.9853 4.17683 7.0003 4.17683C8.0153 4.17683 8.8378 4.99933 8.8378 6.01433C8.8378 7.02933 8.0153 7.85183 7.0003 7.85183Z"
+                                        fill="black" fill-opacity="0.6" />
+                                </svg>
+                                New York, NY
+                            </p>
+
+                            <!-- Calificación (estrellas) -->
+                            <p class="rating">
+                                5.0
+                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.6084 0L9.40451 5.52786H15.2169L10.5146 8.94427L12.3107 14.4721L7.6084 11.0557L2.90612 14.4721L4.70223 8.94427L-5.38826e-05 5.52786H5.81229L7.6084 0Z"
+                                        fill="#FEAC14" />
+                                </svg>
+
+                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.6084 0L9.40451 5.52786H15.2169L10.5146 8.94427L12.3107 14.4721L7.6084 11.0557L2.90612 14.4721L4.70223 8.94427L-5.38826e-05 5.52786H5.81229L7.6084 0Z"
+                                        fill="#FEAC14" />
+                                </svg>
+
+                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.6084 0L9.40451 5.52786H15.2169L10.5146 8.94427L12.3107 14.4721L7.6084 11.0557L2.90612 14.4721L4.70223 8.94427L-5.38826e-05 5.52786H5.81229L7.6084 0Z"
+                                        fill="#FEAC14" />
+                                </svg>
+
+                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.6084 0L9.40451 5.52786H15.2169L10.5146 8.94427L12.3107 14.4721L7.6084 11.0557L2.90612 14.4721L4.70223 8.94427L-5.38826e-05 5.52786H5.81229L7.6084 0Z"
+                                        fill="#FEAC14" />
+                                </svg>
+
+                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.6084 0L9.40451 5.52786H15.2169L10.5146 8.94427L12.3107 14.4721L7.6084 11.0557L2.90612 14.4721L4.70223 8.94427L-5.38826e-05 5.52786H5.81229L7.6084 0Z"
+                                        fill="#FEAC14" />
+                                </svg>
+
+                                <span>(40)</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="contact-seller-btn">Contact Seller</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: Descripción del Servicio -->
+        <section class="service-description">
+            <h3>Descripción del servicio:</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Diam hac pellentesque libero tristique.
+                Vitae adipiscing mattis nullam in eget volutpat auctor. Montes id nulla vivamus
+                suspendisse arcu elementum facilisis nunc in. Consequat pulvinar nunc ac sed varius.
+                Tortor gravida vulputate urna leo lorem tellus facilisis pulvinar non. Ut dictumst nibh
+                feugiat nec mauris aliquam morbi vitae suspendisse. Nibh ornare egestas sollicitudin ac
+                adipiscing cras vel. Adipiscing nibh id consectetur.
+            </p>
+        </section>
+
+        <!-- SECCIÓN: Tarjetas del Servicio -->
+        <section class="container-sugeridos">
+            <h2 class="tittle-sugeridos">Proyectos sugeridos</h2>
+            <div class="carousel-wrapper">
+                <div class="container-two">
+
+                    <!-- CARD #1 -->
+                    <div class="container-card">
+                        <div class="cardd">
+
+                            <!-- PARTE SUPERIOR: Icono Favorito -->
+                            <div class="arriba">
+                                <div class="x">
+                                    <div class="favorite-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M16.4404 3.6001C19.2317 3.60033 21.4999 5.87396 21.5 8.68994C21.5 9.82556 21.3185 10.8738 21.0039 11.8462L21.0029 11.8491C20.2487 14.2358 18.7033 16.1596 17.0352 17.5933C15.3649 19.0287 13.6004 19.948 12.459 20.3364L12.4531 20.3384C12.3532 20.3736 12.189 20.3999 12 20.3999C11.811 20.3999 11.6468 20.3736 11.5469 20.3384L11.541 20.3364C10.3996 19.948 8.63512 19.0287 6.96484 17.5933C5.29669 16.1596 3.75127 14.2358 2.99707 11.8491L2.99609 11.8462L2.88379 11.478C2.63838 10.6105 2.5 9.68359 2.5 8.68994C2.50008 5.87396 4.76829 3.60033 7.55957 3.6001C9.20459 3.6001 10.6795 4.39969 11.5996 5.62939L12 6.16455L12.4004 5.62939C13.3205 4.39969 14.7954 3.6001 16.4404 3.6001Z"
+                                                stroke="#FF0000" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PARTE INFERIOR: Precio  -->
+                            <div class="abajo">
+                                <div class="izquierda"></div>
+                                <div class="derecha">
+                                    <div class="precio">
+                                        <span>
+                                            $100-200
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-info-2">
+
+                            <div class="info-2">
+                                <div class="avatar">
+                                    <img src="/images/1af2086220affecd5f498aeca93f64918a91bf86.jpg"
+                                        alt="Foto del vendedor" />
+                                </div>
+
+                                <div class="details-persona">
+
+                                    <h5>James Anderson
+                                        <p class="rating">
+                                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.6084 0L9.40451 5.52786H15.2169L10.5146 8.94427L12.3107 14.4721L7.6084 11.0557L2.90612 14.4721L4.70223 8.94427L-5.38826e-05 5.52786H5.81229L7.6084 0Z"
+                                                    fill="#FEAC14" />
+                                            </svg>
+                                            5.0
+                                            <span>(40)</span>
+                                        </p>
+                                    </h5>
+
+                                    <p class="location">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0286 4.92933C11.4161 2.23433 9.0653 1.021 7.0003 1.021C7.0003 1.021 7.0003 1.021 6.99447 1.021C4.9353 1.021 2.57863 2.2285 1.96613 4.9235C1.28363 7.9335 3.12697 10.4827 4.7953 12.0868C5.41363 12.6818 6.20697 12.9793 7.0003 12.9793C7.79363 12.9793 8.58697 12.6818 9.19947 12.0868C10.8678 10.4827 12.7111 7.93933 12.0286 4.92933ZM7.0003 7.85183C5.9853 7.85183 5.1628 7.02933 5.1628 6.01433C5.1628 4.99933 5.9853 4.17683 7.0003 4.17683C8.0153 4.17683 8.8378 4.99933 8.8378 6.01433C8.8378 7.02933 8.0153 7.85183 7.0003 7.85183Z"
+                                                fill="black" fill-opacity="0.6" />
+                                        </svg>
+                                        New York, NY
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <p><span>Industria: </span> Empresa</p>
+
+                            <p><span>Categoria: </span><span class="t-categoria">Tecnologia y sofware/</span> Desarrollo web</p>
+                        </div>
+                    </div>
+
+                    <!-- CARD #2 -->
+                    <div class="container-card">
+                        <div class="cardd">
+
+                            <!-- PARTE SUPERIOR: Icono Favorito -->
+                            <div class="arriba">
+                                <div class="x">
+                                    <div class="favorite-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M16.4404 3.6001C19.2317 3.60033 21.4999 5.87396 21.5 8.68994C21.5 9.82556 21.3185 10.8738 21.0039 11.8462L21.0029 11.8491C20.2487 14.2358 18.7033 16.1596 17.0352 17.5933C15.3649 19.0287 13.6004 19.948 12.459 20.3364L12.4531 20.3384C12.3532 20.3736 12.189 20.3999 12 20.3999C11.811 20.3999 11.6468 20.3736 11.5469 20.3384L11.541 20.3364C10.3996 19.948 8.63512 19.0287 6.96484 17.5933C5.29669 16.1596 3.75127 14.2358 2.99707 11.8491L2.99609 11.8462L2.88379 11.478C2.63838 10.6105 2.5 9.68359 2.5 8.68994C2.50008 5.87396 4.76829 3.60033 7.55957 3.6001C9.20459 3.6001 10.6795 4.39969 11.5996 5.62939L12 6.16455L12.4004 5.62939C13.3205 4.39969 14.7954 3.6001 16.4404 3.6001Z"
+                                                stroke="#FF0000" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PARTE INFERIOR: Precio  -->
+                            <div class="abajo">
+                                <div class="izquierda"></div>
+                                <div class="derecha">
+                                    <div class="precio">
+                                        <span>
+                                            $100-200
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-info-2">
+
+                            <div class="info-2">
+                                <div class="avatar">
+                                    <img src="/images/1af2086220affecd5f498aeca93f64918a91bf86.jpg"
+                                        alt="Foto del vendedor" />
+                                </div>
+
+                                <div class="details-persona">
+
+                                    <h5>James Anderson
+                                        <p class="rating">
+                                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.6084 0L9.40451 5.52786H15.2169L10.5146 8.94427L12.3107 14.4721L7.6084 11.0557L2.90612 14.4721L4.70223 8.94427L-5.38826e-05 5.52786H5.81229L7.6084 0Z"
+                                                    fill="#FEAC14" />
+                                            </svg>
+                                            5.0
+                                            <span>(40)</span>
+                                        </p>
+                                    </h5>
+
+                                    <p class="location">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0286 4.92933C11.4161 2.23433 9.0653 1.021 7.0003 1.021C7.0003 1.021 7.0003 1.021 6.99447 1.021C4.9353 1.021 2.57863 2.2285 1.96613 4.9235C1.28363 7.9335 3.12697 10.4827 4.7953 12.0868C5.41363 12.6818 6.20697 12.9793 7.0003 12.9793C7.79363 12.9793 8.58697 12.6818 9.19947 12.0868C10.8678 10.4827 12.7111 7.93933 12.0286 4.92933ZM7.0003 7.85183C5.9853 7.85183 5.1628 7.02933 5.1628 6.01433C5.1628 4.99933 5.9853 4.17683 7.0003 4.17683C8.0153 4.17683 8.8378 4.99933 8.8378 6.01433C8.8378 7.02933 8.0153 7.85183 7.0003 7.85183Z"
+                                                fill="black" fill-opacity="0.6" />
+                                        </svg>
+                                        New York, NY
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <p><span>Industria: </span> Empresa</p>
+
+                            <p><span>Categoria: </span><span class="t-categoria">Tecnologia y sofware/</span> Desarrollo web</p>
+                        </div>
+                    </div>
+
+                    <!-- CARD #3 -->
+                    <div class="container-card">
+                        <div class="cardd">
+
+                            <!-- PARTE SUPERIOR: Icono Favorito -->
+                            <div class="arriba">
+                                <div class="x">
+                                    <div class="favorite-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M16.4404 3.6001C19.2317 3.60033 21.4999 5.87396 21.5 8.68994C21.5 9.82556 21.3185 10.8738 21.0039 11.8462L21.0029 11.8491C20.2487 14.2358 18.7033 16.1596 17.0352 17.5933C15.3649 19.0287 13.6004 19.948 12.459 20.3364L12.4531 20.3384C12.3532 20.3736 12.189 20.3999 12 20.3999C11.811 20.3999 11.6468 20.3736 11.5469 20.3384L11.541 20.3364C10.3996 19.948 8.63512 19.0287 6.96484 17.5933C5.29669 16.1596 3.75127 14.2358 2.99707 11.8491L2.99609 11.8462L2.88379 11.478C2.63838 10.6105 2.5 9.68359 2.5 8.68994C2.50008 5.87396 4.76829 3.60033 7.55957 3.6001C9.20459 3.6001 10.6795 4.39969 11.5996 5.62939L12 6.16455L12.4004 5.62939C13.3205 4.39969 14.7954 3.6001 16.4404 3.6001Z"
+                                                stroke="#FF0000" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PARTE INFERIOR: Precio  -->
+                            <div class="abajo">
+                                <div class="izquierda"></div>
+                                <div class="derecha">
+                                    <div class="precio">
+                                        <span>
+                                            $100-200
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-info-2">
+
+                            <div class="info-2">
+                                <div class="avatar">
+                                    <img src="/images/1af2086220affecd5f498aeca93f64918a91bf86.jpg"
+                                        alt="Foto del vendedor" />
+                                </div>
+
+                                <div class="details-persona">
+
+                                    <h5>James Anderson
+                                        <p class="rating">
+                                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.6084 0L9.40451 5.52786H15.2169L10.5146 8.94427L12.3107 14.4721L7.6084 11.0557L2.90612 14.4721L4.70223 8.94427L-5.38826e-05 5.52786H5.81229L7.6084 0Z"
+                                                    fill="#FEAC14" />
+                                            </svg>
+                                            5.0
+                                            <span>(40)</span>
+                                        </p>
+                                    </h5>
+
+                                    <p class="location">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0286 4.92933C11.4161 2.23433 9.0653 1.021 7.0003 1.021C7.0003 1.021 7.0003 1.021 6.99447 1.021C4.9353 1.021 2.57863 2.2285 1.96613 4.9235C1.28363 7.9335 3.12697 10.4827 4.7953 12.0868C5.41363 12.6818 6.20697 12.9793 7.0003 12.9793C7.79363 12.9793 8.58697 12.6818 9.19947 12.0868C10.8678 10.4827 12.7111 7.93933 12.0286 4.92933ZM7.0003 7.85183C5.9853 7.85183 5.1628 7.02933 5.1628 6.01433C5.1628 4.99933 5.9853 4.17683 7.0003 4.17683C8.0153 4.17683 8.8378 4.99933 8.8378 6.01433C8.8378 7.02933 8.0153 7.85183 7.0003 7.85183Z"
+                                                fill="black" fill-opacity="0.6" />
+                                        </svg>
+                                        New York, NY
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <p><span>Industria: </span> Empresa</p>
+
+                            <p><span>Categoria: </span><span class="t-categoria">Tecnologia y sofware/</span> Desarrollo web</p>
+                        </div>
+                    </div>
+                    <div class="container-card">
+                        <div class="cardd">
+
+                            <!-- PARTE SUPERIOR: Icono Favorito -->
+                            <div class="arriba">
+                                <div class="x">
+                                    <div class="favorite-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M16.4404 3.6001C19.2317 3.60033 21.4999 5.87396 21.5 8.68994C21.5 9.82556 21.3185 10.8738 21.0039 11.8462L21.0029 11.8491C20.2487 14.2358 18.7033 16.1596 17.0352 17.5933C15.3649 19.0287 13.6004 19.948 12.459 20.3364L12.4531 20.3384C12.3532 20.3736 12.189 20.3999 12 20.3999C11.811 20.3999 11.6468 20.3736 11.5469 20.3384L11.541 20.3364C10.3996 19.948 8.63512 19.0287 6.96484 17.5933C5.29669 16.1596 3.75127 14.2358 2.99707 11.8491L2.99609 11.8462L2.88379 11.478C2.63838 10.6105 2.5 9.68359 2.5 8.68994C2.50008 5.87396 4.76829 3.60033 7.55957 3.6001C9.20459 3.6001 10.6795 4.39969 11.5996 5.62939L12 6.16455L12.4004 5.62939C13.3205 4.39969 14.7954 3.6001 16.4404 3.6001Z"
+                                                stroke="#FF0000" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PARTE INFERIOR: Precio  -->
+                            <div class="abajo">
+                                <div class="izquierda"></div>
+                                <div class="derecha">
+                                    <div class="precio">
+                                        <span>
+                                            $100-200
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-info-2">
+
+                            <div class="info-2">
+                                <div class="avatar">
+                                    <img src="/images/1af2086220affecd5f498aeca93f64918a91bf86.jpg"
+                                        alt="Foto del vendedor" />
+                                </div>
+
+                                <div class="details-persona">
+
+                                    <h5>James Anderson
+                                        <p class="rating">
+                                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.6084 0L9.40451 5.52786H15.2169L10.5146 8.94427L12.3107 14.4721L7.6084 11.0557L2.90612 14.4721L4.70223 8.94427L-5.38826e-05 5.52786H5.81229L7.6084 0Z"
+                                                    fill="#FEAC14" />
+                                            </svg>
+                                            5.0
+                                            <span>(40)</span>
+                                        </p>
+                                    </h5>
+
+                                    <p class="location">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0286 4.92933C11.4161 2.23433 9.0653 1.021 7.0003 1.021C7.0003 1.021 7.0003 1.021 6.99447 1.021C4.9353 1.021 2.57863 2.2285 1.96613 4.9235C1.28363 7.9335 3.12697 10.4827 4.7953 12.0868C5.41363 12.6818 6.20697 12.9793 7.0003 12.9793C7.79363 12.9793 8.58697 12.6818 9.19947 12.0868C10.8678 10.4827 12.7111 7.93933 12.0286 4.92933ZM7.0003 7.85183C5.9853 7.85183 5.1628 7.02933 5.1628 6.01433C5.1628 4.99933 5.9853 4.17683 7.0003 4.17683C8.0153 4.17683 8.8378 4.99933 8.8378 6.01433C8.8378 7.02933 8.0153 7.85183 7.0003 7.85183Z"
+                                                fill="black" fill-opacity="0.6" />
+                                        </svg>
+                                        New York, NY
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <p><span>Industria: </span> Empresa</p>
+
+                            <p><span>Categoria: </span><span class="t-categoria">Tecnologia y sofware/</span> Desarrollo web</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pag">
+                <div class="left" id="prev-btn">
+                    <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M27.6573 3.33301H13.3414C7.1231 3.33301 3.41602 6.94967 3.41602 13.0163V26.9663C3.41602 33.0497 7.1231 36.6663 13.3414 36.6663H27.6402C33.8585 36.6663 37.5656 33.0497 37.5656 26.983V13.0163C37.5827 6.94967 33.8756 3.33301 27.6573 3.33301ZM23.5573 24.9997C24.0527 25.483 24.0527 26.283 23.5573 26.7663C23.301 27.0163 22.9764 27.133 22.6518 27.133C22.3273 27.133 22.0027 27.0163 21.7464 26.7663L15.716 20.883C15.2206 20.3997 15.2206 19.5997 15.716 19.1163L21.7464 13.233C22.2418 12.7497 23.0618 12.7497 23.5573 13.233C24.0527 13.7163 24.0527 14.5163 23.5573 14.9997L18.4323 19.9997L23.5573 24.9997Z"
+                            fill="#7B91FF" />
+                    </svg>
+
+                </div>
+
+                <div class="right" id="next-btn">
+                    <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M27.6573 3.33301H13.3414C7.1231 3.33301 3.41602 6.94967 3.41602 13.0163V26.9663C3.41602 33.0497 7.1231 36.6663 13.3414 36.6663H27.6402C33.8585 36.6663 37.5656 33.0497 37.5656 26.983V13.0163C37.5827 6.94967 33.8756 3.33301 27.6573 3.33301ZM25.2656 20.883L19.2352 26.7663C18.9789 27.0163 18.6543 27.133 18.3298 27.133C18.0052 27.133 17.6806 27.0163 17.4243 26.7663C16.9289 26.283 16.9289 25.483 17.4243 24.9997L22.5493 19.9997L17.4243 14.9997C16.9289 14.5163 16.9289 13.7163 17.4243 13.233C17.9198 12.7497 18.7398 12.7497 19.2352 13.233L25.2656 19.1163C25.7781 19.5997 25.7781 20.3997 25.2656 20.883Z"
+                            fill="#7B91FF" />
+                    </svg>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Boton idiomas -->
+        <div class="circle-1" id="lang-toggle">
+            <svg class="icon-A" width="26" height="26" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_165_1377)">
+                    <path d="M29 27L22 13L15 27" stroke="white" stroke-width="3.55556" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M17 23H27" stroke="white" stroke-width="3.55556" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M11 4V7" stroke="white" stroke-width="3.55556" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M3 7H19" stroke="white" stroke-width="3.55556" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M15 7C15 10.1826 13.7357 13.2348 11.4853 15.4853C9.23484 17.7357 6.1826 19 3 19"
+                        stroke="white" stroke-width="3.55556" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M7.6875 11C8.51461 13.3394 10.0466 15.3649 12.0725 16.7976C14.0984 18.2303 16.5187 18.9998 19 19"
+                        stroke="white" stroke-width="3.55556" stroke-linecap="round" stroke-linejoin="round" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_165_1377">
+                        <rect width="32" height="32" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+
+        <div id="google_translate_element"></div>
+
+        <div id="lang-modal" class="lang-modal hidden">
+            <h3 class="text-center font-semibold mb-2">Select Language</h3>
+            <ul class="lang-list" id="language-select">
+                <li data-lang="en">English</li>
+                <li data-lang="es">Español</li>
+                <li data-lang="fr">Français</li>
+                <li data-lang="de">Deutsch</li>
+                <li data-lang="it">Italiano</li>
+                <li data-lang="pt">Português</li>
+                <li data-lang="ru">Русский</li>
+                <li data-lang="zh-CN">中文</li>
+                <li data-lang="ja">日本語</li>
+                <li data-lang="ar">العربية</li>
+            </ul>
+            <button id="close-lang" class="close-btn">Cerrar</button>
+        </div>
+
+        <!-- Boton robot  -->
+        <a href="https://wa.me/573135572942" target="_blank" class="circle-2">
+            <svg class="robot" width="28" height="28" viewBox="0 0 36 36" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_165_1369)">
+                    <path
+                        d="M7.45605 9.28125C7.45718 9.98303 7.69187 10.6645 8.1231 11.2181C8.55433 11.7718 9.15758 12.1661 9.83772 12.339C10.5019 14.1066 11.7203 15.6119 13.3107 16.6298C13.2087 16.6681 13.1192 16.7338 13.052 16.8196C12.9848 16.9054 12.9426 17.008 12.9299 17.1163C12.9172 17.2245 12.9346 17.3341 12.9801 17.4332C13.0256 17.5322 13.0974 17.6168 13.1878 17.6776C14.6152 18.6217 16.2887 19.125 18.0001 19.125C19.7114 19.125 21.3849 18.6217 22.8123 17.6776C22.9027 17.6168 22.9746 17.5322 23.0201 17.4332C23.0656 17.3341 23.0829 17.2245 23.0702 17.1163C23.0575 17.008 23.0153 16.9054 22.9481 16.8196C22.881 16.7338 22.7915 16.6681 22.6895 16.6298C24.2799 15.6119 25.4982 14.1066 26.1624 12.339C26.7094 12.2014 27.2094 11.9194 27.6103 11.5226C28.0111 11.1257 28.298 10.6285 28.4411 10.0829C28.5841 9.53733 28.5781 8.96333 28.4235 8.42086C28.269 7.87839 27.9717 7.38735 27.5626 6.99904V3.50022C27.777 3.37639 27.9447 3.18526 28.0394 2.95646C28.1342 2.72766 28.1508 2.47398 28.0867 2.23477C28.0226 1.99556 27.8814 1.78418 27.6849 1.63342C27.4884 1.48266 27.2477 1.40094 27.0001 1.40094C26.7524 1.40094 26.5117 1.48266 26.3152 1.63342C26.1187 1.78418 25.9775 1.99556 25.9134 2.23477C25.8493 2.47398 25.8659 2.72766 25.9607 2.95646C26.0555 3.18526 26.2231 3.37639 26.4376 3.50022V6.30675C26.3488 6.2753 26.2581 6.24833 26.1664 6.22406C25.5435 4.56116 24.4278 3.12804 22.9685 2.11632C21.5092 1.1046 19.7758 0.5625 18.0001 0.5625C16.2243 0.5625 14.4909 1.1046 13.0316 2.11632C11.5723 3.12804 10.4566 4.56116 9.83377 6.22406C9.74199 6.24833 9.6513 6.2753 9.56257 6.30675V3.50022C9.77704 3.37639 9.94466 3.18526 10.0394 2.95646C10.1342 2.72766 10.1508 2.47398 10.0867 2.23477C10.0226 1.99556 9.8814 1.78418 9.68492 1.63342C9.48845 1.48266 9.24772 1.40094 9.00007 1.40094C8.75242 1.40094 8.51169 1.48266 8.31521 1.63342C8.11874 1.78418 7.9775 1.99556 7.9134 2.23477C7.8493 2.47398 7.86593 2.72766 7.9607 2.95646C8.05547 3.18526 8.22309 3.37639 8.43757 3.50022V6.99904C8.12759 7.29288 7.8807 7.64677 7.71196 8.03914C7.54321 8.43151 7.45614 8.85413 7.45605 9.28125ZM18.0001 2.25C19.3907 2.25 20.7501 2.66238 21.9064 3.43498C23.0627 4.20758 23.9639 5.30571 24.4961 6.59051C25.0283 7.8753 25.1675 9.28905 24.8962 10.653C24.6249 12.0169 23.9552 13.2698 22.9719 14.2531C21.9886 15.2364 20.7357 15.9061 19.3718 16.1774C18.0079 16.4487 16.5941 16.3095 15.3093 15.7773C14.0245 15.2451 12.9264 14.3439 12.1538 13.1876C11.3812 12.0313 10.9688 10.6719 10.9688 9.28125C10.9688 7.41645 11.7096 5.62802 13.0282 4.30941C14.3468 2.99079 16.1353 2.25 18.0001 2.25Z"
+                        fill="white" />
+                    <path
+                        d="M18.0004 13.7812C18.6485 13.7805 19.2766 13.5562 19.7786 13.1464C20.2807 12.7365 20.6261 12.1661 20.7566 11.5312H15.2441C15.3747 12.1661 15.7201 12.7365 16.2221 13.1464C16.7242 13.5563 17.3523 13.7805 18.0004 13.7812Z"
+                        fill="white" />
+                    <path
+                        d="M15.4688 8.94648L16.6078 7.80741C16.7665 7.64759 16.8609 7.43495 16.8729 7.21003C16.885 6.98511 16.8138 6.76362 16.6731 6.58777C16.5323 6.41192 16.3318 6.294 16.1097 6.25647C15.8876 6.21895 15.6595 6.26444 15.4688 6.38429C15.3303 6.29639 15.1707 6.2473 15.0068 6.24215C14.8429 6.237 14.6806 6.27599 14.5368 6.35503C14.3931 6.43407 14.2733 6.55027 14.1898 6.69148C14.1064 6.83268 14.0624 6.99371 14.0625 7.15773C14.0623 7.40106 14.1584 7.6346 14.3297 7.80741L15.4688 8.94648Z"
+                        fill="white" />
+                    <path
+                        d="M20.5313 8.94648L21.6703 7.80741C21.829 7.64759 21.9234 7.43495 21.9354 7.21003C21.9475 6.98511 21.8763 6.76362 21.7356 6.58777C21.5948 6.41192 21.3943 6.294 21.1722 6.25647C20.9501 6.21895 20.722 6.26444 20.5313 6.38429C20.3928 6.29639 20.2332 6.2473 20.0693 6.24215C19.9054 6.237 19.7431 6.27599 19.5993 6.35503C19.4556 6.43407 19.3358 6.55027 19.2523 6.69148C19.1689 6.83268 19.1249 6.99371 19.125 7.15773C19.1248 7.40106 19.2209 7.6346 19.3922 7.80741L20.5313 8.94648Z"
+                        fill="white" />
+                    <path
+                        d="M35.2602 18.1856C34.3574 17.2181 33.0693 16.4981 31.3199 15.9919C31.0817 15.9225 30.8363 15.881 30.5886 15.8681C29.1524 15.7907 27.7203 16.084 26.4301 16.7198C26.3919 16.7387 26.3559 16.7617 26.3226 16.7882L25.0733 17.7806C22.9897 19.2058 20.5242 19.9683 17.9999 19.9683C15.4755 19.9683 13.01 19.2058 10.9264 17.7806L9.67716 16.7882C9.64391 16.7617 9.60793 16.7388 9.56984 16.7199C8.27959 16.084 6.84748 15.7907 5.41113 15.8681C5.16342 15.881 4.91803 15.9225 4.67988 15.9919C2.93051 16.4981 1.64238 17.2181 0.73957 18.1856L0.629883 18.3037L0.764883 18.3965C1.8073 19.1414 2.96048 19.7175 4.18207 20.1037C4.64494 20.2226 5.12175 20.2784 5.59957 20.2697C6.14801 20.2697 6.72177 20.2162 7.31238 20.1628C7.67301 20.1318 8.03954 20.0985 8.40508 20.0781C8.48161 20.0739 8.55819 20.0853 8.63016 20.1117C8.70212 20.1381 8.76794 20.1789 8.82361 20.2316C8.87928 20.2843 8.92362 20.3477 8.95393 20.4181C8.98424 20.4885 8.99987 20.5644 8.99988 20.641V26.4375C9.00004 27.6408 9.24146 28.8319 9.70989 29.9403C10.1783 31.0487 10.8642 32.0519 11.7271 32.8907C12.5899 33.7294 13.6122 34.3866 14.7334 34.8235C15.8547 35.2603 17.0521 35.4679 18.255 35.4339C23.1563 35.2983 26.9999 31.153 26.9999 26.2498V20.641C26.9999 20.5644 27.0155 20.4886 27.0458 20.4182C27.0761 20.3478 27.1205 20.2843 27.1762 20.2316C27.2318 20.1789 27.2977 20.1381 27.3696 20.1117C27.4416 20.0853 27.5182 20.0739 27.5947 20.0781C27.9602 20.0985 28.3268 20.1318 28.6874 20.1628C29.278 20.2162 29.8518 20.2697 30.3974 20.2697C30.8771 20.2784 31.3557 20.2226 31.8205 20.1037C33.041 19.7169 34.1931 19.1408 35.2349 18.3966L35.3699 18.3037L35.2602 18.1856Z"
+                        fill="white" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_165_1369">
+                        <rect width="36" height="36" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </a>
+    </main>
+
+
+    <script async src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
