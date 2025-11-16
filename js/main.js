@@ -1,4 +1,45 @@
 // ---------------------------------------------
+// GALERÍA INTERACTIVA DE IMÁGENES
+// ---------------------------------------------
+const mainImg = document.querySelector('.item .image img');
+const miniatures = document.querySelectorAll('.item .img-miniature img');
+
+if (mainImg && miniatures.length > 0) {
+    miniatures.forEach((img) => {
+        img.addEventListener('click', () => {
+            miniatures.forEach(i => i.parentElement.classList.remove('active'));
+            img.parentElement.classList.add('active');
+            mainImg.style.opacity = 0;
+            setTimeout(() => {
+                mainImg.src = img.src;
+                mainImg.style.opacity = 1;
+            }, 200);
+        });
+    });
+    miniatures[0].parentElement.classList.add('active');
+}
+
+// ---------------------------------------------
+// FAVORITOS Y MENU OVERLAY
+// ---------------------------------------------
+const overlay = document.getElementById('over');
+if (overlay) {
+    overlay.addEventListener('click', () => {
+        const menuToggle = document.querySelector('.menu-toggle');
+        if (menuToggle && menuToggle.checked) {
+            menuToggle.checked = false;
+        }
+    });
+}
+
+const favoriteElements = document.querySelectorAll('.favorite-btn, .favorite-icon');
+favoriteElements.forEach(el => {
+    el.addEventListener('click', () => {
+        el.classList.toggle('clicked');
+    });
+});
+
+// ---------------------------------------------
 // CONTROLES DE SCROLL EN GALERÍA HORIZONTAL
 // ---------------------------------------------
 const container = document.querySelector('.container-two');
@@ -45,46 +86,7 @@ if (container && next && prev) {
     updateButtons();
 }
 
-// ---------------------------------------------
-// GALERÍA INTERACTIVA DE IMÁGENES
-// ---------------------------------------------
-const mainImg = document.querySelector('.item .image img');
-const miniatures = document.querySelectorAll('.item .img-miniature img');
 
-if (mainImg && miniatures.length > 0) {
-    miniatures.forEach((img) => {
-        img.addEventListener('click', () => {
-            miniatures.forEach(i => i.parentElement.classList.remove('active'));
-            img.parentElement.classList.add('active');
-            mainImg.style.opacity = 0;
-            setTimeout(() => {
-                mainImg.src = img.src;
-                mainImg.style.opacity = 1;
-            }, 200);
-        });
-    });
-    miniatures[0].parentElement.classList.add('active');
-}
-
-// ---------------------------------------------
-// FAVORITOS Y MENU OVERLAY
-// ---------------------------------------------
-const overlay = document.getElementById('over');
-if (overlay) {
-    overlay.addEventListener('click', () => {
-        const menuToggle = document.querySelector('.menu-toggle');
-        if (menuToggle && menuToggle.checked) {
-            menuToggle.checked = false;
-        }
-    });
-}
-
-const favoriteElements = document.querySelectorAll('.favorite-btn, .favorite-icon');
-favoriteElements.forEach(el => {
-    el.addEventListener('click', () => {
-        el.classList.toggle('clicked');
-    });
-});
 
 // ---------------------------------------------
 // TRADUCCIÓN AUTOMÁTICA (GOOGLE TRANSLATE)
